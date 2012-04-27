@@ -1,0 +1,6 @@
+C:\src\DEMO-Presentations\WebApiDemos\SelfHostServer\obj\Debug\SelfHostServer.csprojResolveAssemblyReference.cache
+C:\src\DEMO-Presentations\WebApiDemos\SelfHostServer\bin\Debug\SelfHostServer.exe.config
+C:\src\DEMO-Presentations\WebApiDemos\SelfHostServer\bin\Debug\SelfHostServer.exe
+C:\src\DEMO-Presentations\WebApiDemos\SelfHostServer\bin\Debug\SelfHostServer.pdb
+C:\src\DEMO-Presentations\WebApiDemos\SelfHostServer\obj\Debug\SelfHostServer.exe
+C:\src\DEMO-Presentations\WebApiDemos\SelfHostServer\obj\Debug\SelfHostServer.pdb

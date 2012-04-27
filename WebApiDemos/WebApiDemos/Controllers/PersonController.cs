@@ -33,9 +33,9 @@ namespace WebApiDemos.Controllers
             _people = (List<Person>)HttpContext.Current.Cache["people"];
         }
 
-        public IEnumerable<Person> Get()
+        public IQueryable<Person> Get()
         {
-            return _people;
+            return _people.AsQueryable<Person>();
         }
 
         public HttpResponseMessage<Person> Get(int id)
@@ -43,6 +43,8 @@ namespace WebApiDemos.Controllers
             try
             {
                 var person = _people.First(x => x.Id == id);
+
+                Console.WriteLine(person.Name + " was requested");
 
                 return new HttpResponseMessage<Person>(
                     person,

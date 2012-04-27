@@ -24,6 +24,18 @@ namespace WebApiDemos
 
         public static void RegisterRoutes(RouteCollection routes)
         {
+            // Identify JSON formatters in global config.
+            var jsonMediaTypeFormatters = GlobalConfiguration.Configuration.Formatters
+                .Where(x => x.SupportedMediaTypes
+                    .Any(y => y.MediaType.Equals(
+                        "application/json",
+                         StringComparison.InvariantCultureIgnoreCase)))
+                .ToList();
+
+            // Remove formatters from global config.
+            foreach (var formatter in jsonMediaTypeFormatters)
+                GlobalConfiguration.Configuration.Formatters.Remove(formatter);
+
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapHttpRoute(
