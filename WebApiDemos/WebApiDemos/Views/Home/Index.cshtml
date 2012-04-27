@@ -3,12 +3,23 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 <h2>Index</h2>
+
 <ul id="people">
 </ul>
+
+<h2>People</h2>
 <form id="newPersonForm">
-    <input type="text" name="Name" id="name"/>
-    <input type="button" id="addButton" value="save" />
+<input type="text" name="Name" id="name" />
+<input type="button" id="addButton" value="save" />
 </form>
+
+<h2>Upload Something</h2>
+<form action="/api/upload" enctype="multipart/form-data" method="POST">
+Select a File to Upload:
+<input name="uploadedFile" type="file">
+<input type="submit" value="Upload"/>
+</form>
+
 <script type="text/javascript">
     $(function () {
         loadPeople();
@@ -18,7 +29,7 @@
                 function () {
                     $('#name').val('');
                     loadPeople();
-            });
+                });
         });
     });
 

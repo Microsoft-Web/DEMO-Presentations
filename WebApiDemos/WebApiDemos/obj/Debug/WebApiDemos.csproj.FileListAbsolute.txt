@@ -1,6 +1,5 @@
 C:\src\DEMO-Presentations\WebApiDemos\WebApiDemos\bin\WebApiDemos.dll
 C:\src\DEMO-Presentations\WebApiDemos\WebApiDemos\bin\WebApiDemos.pdb
-C:\src\DEMO-Presentations\WebApiDemos\WebApiDemos\bin\EntityFramework.dll
 C:\src\DEMO-Presentations\WebApiDemos\WebApiDemos\bin\Microsoft.Web.Infrastructure.dll
 C:\src\DEMO-Presentations\WebApiDemos\WebApiDemos\bin\System.Json.dll
 C:\src\DEMO-Presentations\WebApiDemos\WebApiDemos\bin\System.Net.Http.dll
