@@ -1,0 +1,7 @@
+C:\src\DEMO-Presentations\NancyDemo\NancyDemo\bin\NancyDemo.dll
+C:\src\DEMO-Presentations\NancyDemo\NancyDemo\bin\NancyDemo.pdb
+C:\src\DEMO-Presentations\NancyDemo\NancyDemo\bin\Nancy.dll
+C:\src\DEMO-Presentations\NancyDemo\NancyDemo\bin\Nancy.Hosting.Aspnet.dll
+C:\src\DEMO-Presentations\NancyDemo\NancyDemo\obj\Debug\NancyDemo.csprojResolveAssemblyReference.cache
+C:\src\DEMO-Presentations\NancyDemo\NancyDemo\obj\Debug\NancyDemo.dll
+C:\src\DEMO-Presentations\NancyDemo\NancyDemo\obj\Debug\NancyDemo.pdb
