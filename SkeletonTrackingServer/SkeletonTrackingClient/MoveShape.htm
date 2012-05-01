@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style type="text/css">
+        .shape {
+            width: 64px;
+            height: 64px;
+            position: absolute;
+        }
+
+        #right {
+            position: absolute;
+            background-image: url('right.png');
+        }
+
+        #left {
+            background-image: url('left.png');
+            position: absolute;
+        }
+
+        p {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div style="width: 640px; height: 480px; border: solid 1px #000;">
+        <div id="right" class="shape"></div>
+        <div id="left" class="shape"></div>
+    </div>
+    <script src="/Scripts/jquery-1.6.4.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery-ui-1.8.19.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.signalR.js" type="text/javascript"></script>
+    <script src="/signalr/hubs" type="text/javascript"></script>
+    <script src="MoveShape.js" type="text/javascript"></script>
+</body>
+</html>

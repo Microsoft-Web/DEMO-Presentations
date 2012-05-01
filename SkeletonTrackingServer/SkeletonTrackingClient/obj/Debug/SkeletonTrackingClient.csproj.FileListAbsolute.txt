@@ -1,0 +1,11 @@
+C:\src\DEMO-Presentations\SkeletonTrackingServer\SkeletonTrackingClient\bin\SkeletonTrackingClient.dll
+C:\src\DEMO-Presentations\SkeletonTrackingServer\SkeletonTrackingClient\bin\SkeletonTrackingClient.pdb
+C:\src\DEMO-Presentations\SkeletonTrackingServer\SkeletonTrackingClient\bin\Microsoft.Web.Infrastructure.dll
+C:\src\DEMO-Presentations\SkeletonTrackingServer\SkeletonTrackingClient\bin\Newtonsoft.Json.dll
+C:\src\DEMO-Presentations\SkeletonTrackingServer\SkeletonTrackingClient\bin\SignalR.dll
+C:\src\DEMO-Presentations\SkeletonTrackingServer\SkeletonTrackingClient\bin\SignalR.Hosting.AspNet.dll
+C:\src\DEMO-Presentations\SkeletonTrackingServer\SkeletonTrackingClient\bin\Newtonsoft.Json.pdb
+C:\src\DEMO-Presentations\SkeletonTrackingServer\SkeletonTrackingClient\bin\Newtonsoft.Json.xml
+C:\src\DEMO-Presentations\SkeletonTrackingServer\SkeletonTrackingClient\obj\Debug\SkeletonTrackingClient.csprojResolveAssemblyReference.cache
+C:\src\DEMO-Presentations\SkeletonTrackingServer\SkeletonTrackingClient\obj\Debug\SkeletonTrackingClient.dll
+C:\src\DEMO-Presentations\SkeletonTrackingServer\SkeletonTrackingClient\obj\Debug\SkeletonTrackingClient.pdb
