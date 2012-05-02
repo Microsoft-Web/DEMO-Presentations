@@ -60,8 +60,8 @@ namespace SkeletonTrackingServer
                     {
                         var rightHand = s.Joints.First(x => x.JointType == JointType.HandRight);
                         var leftHand = s.Joints.First(x => x.JointType == JointType.HandLeft);
-                        var r = rightHand.ScaleTo(640, 480);
-                        var l = leftHand.ScaleTo(640, 480);
+                        var r = rightHand.ScaleTo(571, 500);
+                        var l = leftHand.ScaleTo(571, 500);
 
                         _hub.Invoke("MoveShape", 
                             new { hand = "right", x = r.Position.X, y = r.Position.Y},

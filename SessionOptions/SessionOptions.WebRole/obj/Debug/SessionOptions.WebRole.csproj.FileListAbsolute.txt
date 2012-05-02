@@ -1,0 +1,10 @@
+C:\src\DEMO-Presentations\SessionOptions\SessionOptions.WebRole\obj\Debug\SessionOptions.WebRole.csprojResolveAssemblyReference.cache
+C:\src\DEMO-Presentations\SessionOptions\SessionOptions.WebRole\bin\SessionOptions.WebRole.dll
+C:\src\DEMO-Presentations\SessionOptions\SessionOptions.WebRole\bin\SessionOptions.WebRole.pdb
+C:\src\DEMO-Presentations\SessionOptions\SessionOptions.WebRole\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\src\DEMO-Presentations\SessionOptions\SessionOptions.WebRole\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\src\DEMO-Presentations\SessionOptions\SessionOptions.WebRole\bin\System.Web.Providers.dll
+C:\src\DEMO-Presentations\SessionOptions\SessionOptions.WebRole\bin\Microsoft.WindowsAzure.Diagnostics.xml
+C:\src\DEMO-Presentations\SessionOptions\SessionOptions.WebRole\bin\Microsoft.WindowsAzure.StorageClient.xml
+C:\src\DEMO-Presentations\SessionOptions\SessionOptions.WebRole\obj\Debug\SessionOptions.WebRole.dll
+C:\src\DEMO-Presentations\SessionOptions\SessionOptions.WebRole\obj\Debug\SessionOptions.WebRole.pdb
