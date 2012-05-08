@@ -1,0 +1,20 @@
+﻿p {
+    background-color: #1382ce;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+
+#notice {
+    display: none;
+}
+
+@media only screen and (max-width: 800px)  {
+    #notice {
+        color: #f00;
+        display: block;
+        font-size: 2em;
+    }
+}

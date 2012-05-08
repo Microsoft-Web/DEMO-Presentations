@@ -1,0 +1,32 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.7.2.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/demo.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/modernizr-2.5.3.js")" type="text/javascript"></script>
+</head>
+<body>
+    <div class="page">
+        <header>
+            <div id="title">
+                HTML5 for ASP.NET 4 &amp; 4.5
+            </div>
+            <nav>
+                <ul id="menu">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                </ul>
+            </nav>
+        </header>
+        <div id="main">
+            @RenderBody()
+        </div>
+        <footer>
+            &copy; Matthew M Osborn - HTML5 for ASP.NET 4 &amp; 4.5 Demo
+        </footer>
+    </div>
+</body>
+</html>

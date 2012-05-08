@@ -8,7 +8,7 @@
             height: 64px;
             position: absolute;
         }
-        
+
         #right {
             position: absolute;
             background-image: url('right.gif');
@@ -19,13 +19,18 @@
             position: absolute;
         }
 
-        p {
-            margin-left: 10px;
+        #container {
+            width: 571px;
+            height: 500px;
+            border: solid 1px #000;
+            background-image: url('/boxer.jpg');
+            margin-left: auto;
+            margin-right: auto;
         }
     </style>
 </head>
 <body>
-    <div style="width: 571px; height: 500px; border: solid 1px #000; background-image: url('/boxer.jpg')">
+    <div id="container">
         <div id="right" class="shape"></div>
         <div id="left" class="shape"></div>
     </div>

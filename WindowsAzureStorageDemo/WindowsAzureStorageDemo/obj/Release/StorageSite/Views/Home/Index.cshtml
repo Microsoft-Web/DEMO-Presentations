@@ -1,0 +1,40 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h2>Let's store some data!</h2>
+            </hgroup>
+            <p>
+                <form method="post" action="/Home/NewTask">
+                <input type="text" name="item" />
+                <input type="submit" />
+                </form>
+            </p>
+			<div>
+				<h2>Existing Tasks</h2>
+				<ul>
+				@foreach (var task in ViewBag.tasks)
+				{
+					<li>@task.Details</li>
+				}
+				</ul>
+			</div>
+			<div>
+				<h2>Existing Files</h2>
+				<ul>
+					@foreach (var blob in ViewBag.blobs)
+	 {
+		 <li><a href="@blob">@blob</a></li>
+	 }
+				</ul>
+				<form action="/Home/NewFile" method="post" enctype="multipart/form-data">
+					<input type="file" name="uploadedFile" />
+					<input type="submit" />
+				</form>
+			</div>
+        </div>
+    </section>
+}

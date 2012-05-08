@@ -1,0 +1,31 @@
+﻿@model Podcast.Models.Episode
+
+@{
+    ViewBag.Title = "Episode";
+}
+
+<h2>@Model.Title</h2>
+
+<div class="display-label">Number</div>
+<div class="display-field">
+    @Html.DisplayFor(model => model.Number)
+</div>
+
+<div class="display-label">Title</div>
+<div class="display-field">
+    @Html.DisplayFor(model => model.Title)
+</div>
+
+<div class="display-label">Description</div>
+<div class="display-field">
+    @Html.DisplayFor(model => model.Description)
+</div>
+
+<div class="display-label">FileName</div>
+<div class="display-field">
+    @Html.DisplayFor(model => model.FileName)
+</div>
+
+<p>
+    @Html.ActionLink("Back", "Index")
+</p>

@@ -1,0 +1,29 @@
+﻿@model Podcast.Models.FrontPageViewModel
+
+@{
+    ViewBag.Title = "Welcome";
+}
+
+<h1>Podcast Demo</h1>
+
+
+<div class="featured">
+    <h1>@Model.Featured.Title</h1>
+    <h2>Show # @Model.Featured.Number</h2>
+
+    <p>@Model.Featured.Description</p>
+    
+    <a href="@Url.Content("~//Audio//" + Model.Featured.FileName)">Download Episode</a>
+</div>
+
+
+<h2>Other Episodes</h2>
+<ul id="episodes">
+    @foreach (var episode in Model.Episodes)
+    {
+        <li>
+            @Html.ActionLink(episode.Title, "Episode", new { id = episode.ID }, 
+                new { title = "view " + episode.Title + " details" })
+        </li>
+    }
+</ul>

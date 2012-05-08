@@ -1,0 +1,9 @@
+C:\src\DEMO-Presentations\WebApiDemos\WindowsAzureStorageHelpers\obj\Debug\WindowsAzureStorageHelpers.csprojResolveAssemblyReference.cache
+C:\src\DEMO-Presentations\WebApiDemos\WindowsAzureStorageHelpers\bin\Debug\WindowsAzureStorageHelpers.dll
+C:\src\DEMO-Presentations\WebApiDemos\WindowsAzureStorageHelpers\bin\Debug\WindowsAzureStorageHelpers.pdb
+C:\src\DEMO-Presentations\WebApiDemos\WindowsAzureStorageHelpers\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+C:\src\DEMO-Presentations\WebApiDemos\WindowsAzureStorageHelpers\bin\Debug\Microsoft.WindowsAzure.StorageClient.dll
+C:\src\DEMO-Presentations\WebApiDemos\WindowsAzureStorageHelpers\bin\Debug\Microsoft.WindowsAzure.Diagnostics.xml
+C:\src\DEMO-Presentations\WebApiDemos\WindowsAzureStorageHelpers\bin\Debug\Microsoft.WindowsAzure.StorageClient.xml
+C:\src\DEMO-Presentations\WebApiDemos\WindowsAzureStorageHelpers\obj\Debug\WindowsAzureStorageHelpers.dll
+C:\src\DEMO-Presentations\WebApiDemos\WindowsAzureStorageHelpers\obj\Debug\WindowsAzureStorageHelpers.pdb

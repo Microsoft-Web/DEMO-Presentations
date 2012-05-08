@@ -1,0 +1,8 @@
+C:\Development\Demos\BuildingAspNet\45Demo\WebFormApplication\bin\WebFormApplication.dll
+C:\Development\Demos\BuildingAspNet\45Demo\WebFormApplication\bin\WebFormApplication.pdb
+C:\Development\Demos\BuildingAspNet\45Demo\WebFormApplication\bin\Microsoft.ScriptManager.jQuery.dll
+C:\Development\Demos\BuildingAspNet\45Demo\WebFormApplication\bin\Microsoft.ScriptManager.jQuery.UI.Combined.dll
+C:\Development\Demos\BuildingAspNet\45Demo\WebFormApplication\bin\System.Web.Providers.dll
+C:\Development\Demos\BuildingAspNet\45Demo\WebFormApplication\obj\Debug\WebFormApplication.csprojResolveAssemblyReference.cache
+C:\Development\Demos\BuildingAspNet\45Demo\WebFormApplication\obj\Debug\WebFormApplication.dll
+C:\Development\Demos\BuildingAspNet\45Demo\WebFormApplication\obj\Debug\WebFormApplication.pdb

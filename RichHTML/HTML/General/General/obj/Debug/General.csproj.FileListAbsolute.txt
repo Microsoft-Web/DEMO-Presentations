@@ -1,0 +1,5 @@
+C:\Development\Demos\RichHTML\HTML\General\General\bin\General.dll
+C:\Development\Demos\RichHTML\HTML\General\General\bin\General.pdb
+C:\Development\Demos\RichHTML\HTML\General\General\obj\Debug\General.csprojResolveAssemblyReference.cache
+C:\Development\Demos\RichHTML\HTML\General\General\obj\Debug\General.dll
+C:\Development\Demos\RichHTML\HTML\General\General\obj\Debug\General.pdb

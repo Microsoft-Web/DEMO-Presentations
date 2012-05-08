@@ -1,0 +1,6 @@
+C:\Development\Demos\BuildingAspNet\OnStage\WebForms\WebForms\bin\WebForms.dll
+C:\Development\Demos\BuildingAspNet\OnStage\WebForms\WebForms\bin\WebForms.pdb
+C:\Development\Demos\BuildingAspNet\OnStage\WebForms\WebForms\obj\Debug\WebForms.csprojResolveAssemblyReference.cache
+C:\Development\Demos\BuildingAspNet\OnStage\WebForms\WebForms\obj\Debug\WebForms.dll
+C:\Development\Demos\BuildingAspNet\OnStage\WebForms\WebForms\obj\Debug\WebForms.pdb
+C:\Development\Demos\BuildingAspNet\OnStage\WebForms\WebForms\bin\Microsoft.ScriptManager.jQuery.dll

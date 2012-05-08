@@ -1,0 +1,35 @@
+﻿@model Podcast.Models.FrontPageViewModel
+
+@{
+    ViewBag.Title = "Welcome";
+}
+
+<h1>Podcast Demo</h1>
+
+
+<section class="featured">
+    <hgroup>
+        <h1>@Model.Featured.Title</h1>
+        <h2>Show # @Model.Featured.Number</h2>
+    </hgroup>
+
+    <p>@Model.Featured.Description</p>
+    
+    <audio src="@Url.Content("~//Audio//" + Model.Featured.FileName)" controls="controls">
+        Doesnt Work
+    </audio>
+
+    <a href="@Url.Content("~//Audio//" + Model.Featured.FileName)">Download Episode</a>
+</section>
+
+
+<h2>Other Episodes</h2>
+<ul id="episodes">
+    @foreach (var episode in Model.Episodes)
+    {
+        <li>
+            @Html.ActionLink(episode.Title, "Episode", new { id = episode.ID }, 
+                new { title = "view " + episode.Title + " details" })
+        </li>
+    }
+</ul>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DeployingMVCAppsToAzure.Cloud" generation="1" functional="0" release="0" Id="f21302f7-037a-4529-bcf9-1888ee7c6eea" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DeployingMVCAppsToAzure.Cloud" generation="1" functional="0" release="0" Id="a434d9d9-d479-4213-9b26-aacaeabd415b" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="DeployingMVCAppsToAzure.CloudGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -79,9 +79,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="81f63ccb-6513-4955-ac36-7910d7a254a3" ref="Microsoft.RedDog.Contract\ServiceContract\DeployingMVCAppsToAzure.CloudContract@ServiceDefinition.build">
+    <implementation Id="87b186c4-4046-46b1-8a3c-415622741fb7" ref="Microsoft.RedDog.Contract\ServiceContract\DeployingMVCAppsToAzure.CloudContract@ServiceDefinition.build">
       <interfacereferences>
-        <interfaceReference Id="97ee4ec1-bdc6-47cc-be41-c4d85e4cc370" ref="Microsoft.RedDog.Contract\Interface\DeployingMVCAppsToAzure:Endpoint1@ServiceDefinition.build">
+        <interfaceReference Id="028718ee-e42e-418e-91c4-71b9ca132925" ref="Microsoft.RedDog.Contract\Interface\DeployingMVCAppsToAzure:Endpoint1@ServiceDefinition.build">
           <inPort>
             <inPortMoniker name="/DeployingMVCAppsToAzure.Cloud/DeployingMVCAppsToAzure.CloudGroup/DeployingMVCAppsToAzure:Endpoint1" />
           </inPort>

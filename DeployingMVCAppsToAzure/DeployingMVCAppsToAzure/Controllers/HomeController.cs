@@ -19,13 +19,15 @@ namespace DeployingMVCAppsToAzure.Controllers
 
 		public ActionResult WebAppSetting()
 		{
-			ViewBag.Message = ConfigurationManager.AppSettings["MyWebAppAppSetting"];
+			ViewBag.Message = 
+                ConfigurationManager.AppSettings["MyWebAppAppSetting"];
 			return View();
 		}
 
 		public ActionResult WindowsAzureAppSetting()
 		{
-			ViewBag.Message = RoleEnvironment.GetConfigurationSettingValue("MyAzureRoleAppSetting");
+			ViewBag.Message = 
+                RoleEnvironment.GetConfigurationSettingValue("MyAzureRoleAppSetting");
 			return View();
 		}
 

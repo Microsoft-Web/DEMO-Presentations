@@ -1,0 +1,18 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h2>Let's store some data!</h2>
+            </hgroup>
+            <p>
+                <form method="post" action="/Home/NewTask">
+                <input type="text" name="item" />
+                <input type="submit" />
+                </form>
+            </p>
+        </div>
+    </section>
+}

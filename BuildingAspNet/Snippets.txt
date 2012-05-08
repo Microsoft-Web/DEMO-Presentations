@@ -1,0 +1,143 @@
+WebForms Model Binding
+---------------------------
+- New Input Types
+- New CreateEvent Smart tasks
+- ValidateRequestMode=""
+	- Before & After 
+- RequiredFieldValidator
+	- Before show error
+	- After installing package
+- Extract as user control
+
+
+
+
+
+    public class Person
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+    }
+
+
+
+            var people = new List<Person>();
+            people.Add(new Person() { FirstName = "Matthew", LastName = "Osborn" });
+            people.Add(new Person() { FirstName = "Mark", LastName = "Osborn" });
+
+            rptPeople.DataSource = people;
+            rptPeople.DataBind();
+
+
+
+
+
+
+        <ul>
+            <asp:Repeater ID="rptPeople" runat="server">
+                <ItemTemplate>
+                    <li></li>
+                </ItemTemplate>
+            </asp:Repeater>
+        </ul>
+
+
+
+
+
+            <asp:Repeater ID="rptPeople" runat="server" ItemType="WebApplication9.Person">
+                <ItemTemplate>
+                    <li><%#: Item.FirstName %> <%#: Item.LastName %></li>
+                </ItemTemplate>
+            </asp:Repeater>
+
+
+
+
+
+Web Pages
+---------------------
+- Set layout
+- defibe var and use it in page
+- create code block and put text inside it
+
+<p>
+    Hello there @Name how are you doing today?
+</p>
+
+- If statement block
+@if(true){<p>Works!</p>}
+
+- Escapsing
+@{
+    <text>This is text...</text>
+}
+
+@{
+    var x = 42;
+    <text>This is text.. @x...</text>
+}
+
+- Show Login page
+
+
+
+MVC 4
+----------------------
+- Call out the dialog
+	- choices
+	- tests
+- Create Person model
+
+    public class Person
+    {
+        public int ID { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+    }
+
+- Add a controller
+	- Scafold with EF
+	- Look at what it did
+	- Talk about HTTP
+	- Show Routes
+- ****Change Connection String****
+
+Web API
+--------------------------
+- Add API Controller People
+- Copy Db Context & db.people.tolist()
+	- change return type
+
+
+One ASP.NET
+----------------------------
+- Include jquery.ui.all.css
+	- Show Network tab
+- remove it and show bundles
+	- show default /css or /js bundle
+	- add custom one
+
+
+            var customBundle = new Bundle("~/bundle", typeof(CssMinify));
+            customBundle.AddFile("~/Content/themes/base/jquery.ui.core.css");
+            customBundle.AddFile("~/Content/themes/base/jquery.ui.resizable.css");
+            customBundle.AddFile("~/Content/themes/base/jquery.ui.selectable.css");
+            customBundle.AddFile("~/Content/themes/base/jquery.ui.accordion.css");
+            customBundle.AddFile("~/Content/themes/base/jquery.ui.autocomplete.css");
+            customBundle.AddFile("~/Content/themes/base/jquery.ui.button.css");
+            customBundle.AddFile("~/Content/themes/base/jquery.ui.dialog.css");
+            customBundle.AddFile("~/Content/themes/base/jquery.ui.slider.css");
+            customBundle.AddFile("~/Content/themes/base/jquery.ui.tabs.css");
+            customBundle.AddFile("~/Content/themes/base/jquery.ui.datepicker.css");
+            
+	    customBundle.AddFile("~/Content/themes/base/jquery.ui.progressbar.css");
+            customBundle.AddFile("~/Content/themes/base/jquery.ui.theme.css");
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+C:\Development\Demos\RichHTML\SignalRDemo\SignalRDemo\bin\SignalRDemo.dll
+C:\Development\Demos\RichHTML\SignalRDemo\SignalRDemo\bin\SignalRDemo.pdb
+C:\Development\Demos\RichHTML\SignalRDemo\SignalRDemo\bin\Microsoft.Web.Infrastructure.dll
+C:\Development\Demos\RichHTML\SignalRDemo\SignalRDemo\bin\Newtonsoft.Json.dll
+C:\Development\Demos\RichHTML\SignalRDemo\SignalRDemo\bin\SignalR.dll
+C:\Development\Demos\RichHTML\SignalRDemo\SignalRDemo\bin\SignalR.Hosting.AspNet.dll
+C:\Development\Demos\RichHTML\SignalRDemo\SignalRDemo\bin\Newtonsoft.Json.pdb
+C:\Development\Demos\RichHTML\SignalRDemo\SignalRDemo\bin\Newtonsoft.Json.xml
+C:\Development\Demos\RichHTML\SignalRDemo\SignalRDemo\obj\Debug\SignalRDemo.csprojResolveAssemblyReference.cache
+C:\Development\Demos\RichHTML\SignalRDemo\SignalRDemo\obj\Debug\SignalRDemo.dll
+C:\Development\Demos\RichHTML\SignalRDemo\SignalRDemo\obj\Debug\SignalRDemo.pdb

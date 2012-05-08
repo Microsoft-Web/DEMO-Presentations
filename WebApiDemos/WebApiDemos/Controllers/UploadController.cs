@@ -24,7 +24,8 @@ namespace WebApiDemos.Controllers
                     IEnumerable<HttpContent> bodyparts =
                         await Request.Content.ReadAsMultipartAsync(stream);
 
-                    IDictionary<string, string> bodyPartFiles = stream.BodyPartFileNames;
+                    IDictionary<string, string> bodyPartFiles = 
+                        stream.BodyPartFileNames;
 
                     bodyPartFiles
                         .Select(i => { return i.Value; })

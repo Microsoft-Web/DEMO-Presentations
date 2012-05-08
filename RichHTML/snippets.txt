@@ -1,0 +1,193 @@
+CREATE Empty Web Application > WebCamps.html (Call out html now :) )
+
+HTML DEMO
+------------------
+ - Demo Validation
+ - Demo Closing Tag 	
+ - Demo Elements & audio
+
+
+    <header>
+        <hgroup>
+            <h1>Main Title</h1>
+            <h2>Sub Title</h2>
+        </hgroup>
+        <nav>
+            <ul>
+                <li><a href="#" title="Home">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h2>Demo</h2>
+        <audio src="rimshot.MP3" controls="controls" />
+    </section>
+
+
+CSS DEMO 
+-------------------
+ - Border Radius
+	 * Demo vendor Prefix Support
+ - Demo Color picker
+ - Demo Commenting etc. 
+ - Demo * selctor working
+ - Demo Media Querys
+
+<div id="notice">Time to Get a bigger Screen!</div>
+
+#notice {
+    display: none;
+}
+
+@media only screen and (max-width: 800px)  {
+    #notice {
+        color: #f00;
+        display: block;
+        font-size: 2em;
+    }
+}
+
+ - DEMO animations
+
+#animation {
+    animation: Demo;
+    width: 200px;
+    height: 200px;
+    -webkit-animation: Demo 5s;
+}
+
+@-webkit-keyframes Demo {
+    from { background-color: #0094ff; }
+
+    to { background-color: #b200ff; }
+}
+
+
+
+JavaScript Demo
+-----------------------------------------
+1) Find something, Do something
+	<div id="foo"></div>
+	$("#something").hide();
+2) Selectors
+	<div id="foo">Hello, World! 1</div>
+        <div class="foo bar">Hello, World! 2</div>
+        <div class="bar">Hello, World! 3</div>
+
+3) DOM Manipulation 
+	1) Add
+		$("<ul><li>Testing...</li></ul>").appendTo("#foo");
+	2) remove
+
+<div id="foo">Hello, World! 1</div>
+<p>test</p>
+<div class="foo bar">Hello, World! 2</div>
+<p>test</p>
+<div class="bar">Hello, World! 3</div>
+<p>test</p>
+
+$('p').hide()
+
+4) Events
+	< a href="#">Do Something</a>
+	$('a').click(function(){$(this).css('color','#e2e2e2');});
+5) chaining
+	< a href="#">Do Something</a>
+	$('a').click(function(){$(this).css('color','#e2e2e2');}).addClass('clicked');
+
+6) AJAX
+	$.ajax(), $.get(), $.post(), $getJSON, $('#container').load('some/url')
+
+
+Feature Detection
+-------------------
+ - Demo Podcast Site.
+ - Demo jQuery UI as datatime picker. 
+ - Speak to all the polyfills.
+
+
+Step Further
+-------------------
+[knockout] (Model-View-View-Model MVVM)
+ - Install Knockout.js & jQuery
+ - Setup view move
+    <script>
+        $(function () {
+            function AppViewModel() {
+                this.firstName = ko.observable("Matthew");
+                this.lastName = ko.observable("Osborn");
+            }
+
+            ko.applyBindings(new AppViewModel());
+        });
+    </script>
+ - Bind Text boxes
+	data-bind="value: firstName"
+	data-bind="value: lastName"
+ - Show it working
+ - Add a computed property
+                this.fullName = ko.computed(function () {
+                    return this.firstName() + " " + this.lastName();
+                }, this);	
+ - Bind to the name
+	data-bind="text: fullName"
+
+[signalR]
+
+ [moveShape.cs]
+
+    [HubName("moveShape")]
+    public class MoveShapeHub : Hub
+    {
+        public void MoveShape(int x, int y)
+        {
+            Clients.shapeMoved(Context.ConnectionId, x, y);
+        }
+    }
+
+
+ [MoveShape.JS]
+
+/// <reference path="Scripts/jquery-1.6.4.js" />
+/// <reference path="Scripts/jquery.signalR.js" />
+/// <reference path="Scripts/jquery-ui-1.8.18.js" />
+
+$(function () {
+    var hub = $.connection.moveShape,
+    $shape = $("#shape");
+    $.extend(hub, {
+        shapeMoved: function (cid, x, y) {
+            if ($.connection.hub.id !== cid) {
+                $shape.css({ left: x, top: y });
+            }
+        }
+    });
+    $.connection.hub.start().done(function () {
+        $shape.draggable({
+            drag: function () {
+                hub.moveShape(this.offsetLeft, this.offsetTop);
+            }
+        });
+    })
+});
+
+
+ [move.html]
+	
+    <style type="text/css">
+        #shape {  
+            width: 200px;
+            height: 200px;
+            background: #ccc;
+            border: 2px solid #333;
+        }
+    </style>
+
+
+
+    <div id="shape"></div>
+    <script src="../Scripts/jquery-1.6.4.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery-ui-1.8.19.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.signalR.js" type="text/javascript"></script>
+    <script src="/signalr/hubs" type="text/javascript"></script>
+    <script src="/scripts/MoveShape.js" type="text/javascript"></script>

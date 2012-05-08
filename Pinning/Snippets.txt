@@ -1,0 +1,60 @@
+    <meta name="application-name" content="Pinning Demo" />
+    <meta name="msapplication-tooltip" content="Pinning Demo" />
+    <meta name="msapplication-window" content="width=1124;height=768" />
+    <meta name="msapplication-starturl" content="/" />
+
+-------------------------------------
+
+    <meta name="msapplication-navbutton-color" content="#000" />
+
+--------------------------------------
+
+    <meta name="msapplication-task" content="name=Task;action-uri=/;icon-uri=/images/ico/task.ico" />
+
+--------------------------------------
+
+    try {
+        if (window.external.msIsSiteMode()) {
+            window.external.msSiteModeClearJumpList();
+
+            window.external.msSiteModeCreateJumpList("My Custom List");
+
+            window.external.msSiteModeAddJumpListItem("Task 1", "/", "/images/ico/heart.ico", "self");
+            window.external.msSiteModeAddJumpListItem("Task 2", "/", "/images/ico/ring.ico", "self");
+        }
+    } catch(e) { }
+
+
+----------------------------------------
+
+        $.pinify.addJumpList({    
+            title: "Build My Pinned Site",
+            items: [{
+                name: "Task 3",
+                url: "/",
+                icon: "/images/ico/attn.ico"
+            }, {
+                name: "Task 4",
+                url: "/",
+                icon: "/images/ico/right.ico"
+            }]
+        });
+
+
+------------------------------------------
+
+        $.pinify.createThumbbarButtons({
+            buttons: [{
+                icon: "/images/ico/twitter.ico",
+                name: "Share on Twitter!",
+                click: function () {
+                    alert("I see you want to share on Twitter.");
+                }
+            }, {
+                icon: "/images/ico/facebook.ico",
+                name: "Share on Facebook!",
+                click: function () {
+                    alert("I see you want to share on Facebook.");
+                }
+            }]
+        });

@@ -1,0 +1,1 @@
+C:\src\DEMO-Presentations\WindowsAzureStorageDemo\WindowsAzureStorageDemo\bin\Debug\ServiceConfiguration.cscfg

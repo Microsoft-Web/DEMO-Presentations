@@ -1,0 +1,29 @@
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast\Podcast\bin\Podcast.dll
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast\Podcast\bin\Podcast.pdb
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast\Podcast\bin\EntityFramework.dll
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast\Podcast\bin\EntityFramework.xml
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast\Podcast\obj\Debug\Podcast.csprojResolveAssemblyReference.cache
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast\Podcast\obj\Debug\Podcast.dll
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast\Podcast\obj\Debug\Podcast.pdb
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast - Copy\Podcast\bin\Podcast.dll
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast - Copy\Podcast\bin\Podcast.pdb
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast - Copy\Podcast\bin\EntityFramework.dll
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast - Copy\Podcast\bin\EntityFramework.xml
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast - Copy\Podcast\obj\Debug\Podcast.csprojResolveAssemblyReference.cache
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast - Copy\Podcast\obj\Debug\Podcast.dll
+C:\Users\Matthew M Osborn\Desktop\HTML 5 Demos\Podcast - Copy\Podcast\obj\Debug\Podcast.pdb
+D:\Documents\Presentations\DevConnections2012\HTML5\Demos-Clean\Podcast\Podcast\bin\Podcast.dll
+D:\Documents\Presentations\DevConnections2012\HTML5\Demos-Clean\Podcast\Podcast\bin\Podcast.pdb
+D:\Documents\Presentations\DevConnections2012\HTML5\Demos-Clean\Podcast\Podcast\bin\EntityFramework.dll
+D:\Documents\Presentations\DevConnections2012\HTML5\Demos-Clean\Podcast\Podcast\bin\EntityFramework.xml
+D:\Documents\Presentations\DevConnections2012\HTML5\Demos-Clean\Podcast\Podcast\obj\Debug\Podcast.csprojResolveAssemblyReference.cache
+D:\Documents\Presentations\DevConnections2012\HTML5\Demos-Clean\Podcast\Podcast\obj\Debug\Podcast.dll
+D:\Documents\Presentations\DevConnections2012\HTML5\Demos-Clean\Podcast\Podcast\obj\Debug\Podcast.pdb
+C:\Development\Demos\RichHTML\DownLevel\Podcast\Podcast\bin\Podcast.dll
+C:\Development\Demos\RichHTML\DownLevel\Podcast\Podcast\bin\Podcast.pdb
+C:\Development\Demos\RichHTML\DownLevel\Podcast\Podcast\bin\EntityFramework.dll
+C:\Development\Demos\RichHTML\DownLevel\Podcast\Podcast\bin\Microsoft.Web.Optimization.dll
+C:\Development\Demos\RichHTML\DownLevel\Podcast\Podcast\bin\EntityFramework.xml
+C:\Development\Demos\RichHTML\DownLevel\Podcast\Podcast\obj\Debug\Podcast.csprojResolveAssemblyReference.cache
+C:\Development\Demos\RichHTML\DownLevel\Podcast\Podcast\obj\Debug\Podcast.dll
+C:\Development\Demos\RichHTML\DownLevel\Podcast\Podcast\obj\Debug\Podcast.pdb

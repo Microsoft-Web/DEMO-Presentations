@@ -1,0 +1,11 @@
+C:\Development\Demos\BuildingAspNet\OnStage\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.dll.config
+C:\Development\Demos\BuildingAspNet\OnStage\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.dll
+C:\Development\Demos\BuildingAspNet\OnStage\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.Tests.pdb
+C:\Development\Demos\BuildingAspNet\OnStage\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.dll
+C:\Development\Demos\BuildingAspNet\OnStage\MvcApplication1\MvcApplication1.Tests\bin\Debug\EntityFramework.dll
+C:\Development\Demos\BuildingAspNet\OnStage\MvcApplication1\MvcApplication1.Tests\bin\Debug\System.Web.Optimization.dll
+C:\Development\Demos\BuildingAspNet\OnStage\MvcApplication1\MvcApplication1.Tests\bin\Debug\MvcApplication1.pdb
+C:\Development\Demos\BuildingAspNet\OnStage\MvcApplication1\MvcApplication1.Tests\bin\Debug\EntityFramework.xml
+C:\Development\Demos\BuildingAspNet\OnStage\MvcApplication1\MvcApplication1.Tests\obj\Debug\MvcApplication1.Tests.csprojResolveAssemblyReference.cache
+C:\Development\Demos\BuildingAspNet\OnStage\MvcApplication1\MvcApplication1.Tests\obj\Debug\MvcApplication1.Tests.dll
+C:\Development\Demos\BuildingAspNet\OnStage\MvcApplication1\MvcApplication1.Tests\obj\Debug\MvcApplication1.Tests.pdb
