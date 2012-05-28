@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" src="/Scripts/jquery-1.7.2.js"></script>
+</head>
+<body>
+    <h2>@Model.name</h2>
+    <p id="chuckQuote"></p>
+
+    <script type="text/javascript">
+        $(function () {
+            $.get('/facts').success(function (fact) {
+                $('#chuckQuote').html(fact);
+            });
+        });
+    </script>
+</body>
+</html>
